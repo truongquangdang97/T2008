@@ -33,12 +33,14 @@ body{
 #a5{
     margin-left: 20px  ;
 }
+
 #b{margin-left: 15px ;
     width:80%;
     border-bottom:1px solid #242424;
 }
 #e{
-    margin-left:au    border-bottom:1px solid #242424
+    margin-left:auto;
+    border-bottom:1px solid #242424
 }
 #c{
     margin-left: 30px;
@@ -55,8 +57,18 @@ body{
     padding-left: 30%;/* lề trái*/
     padding-right: 5%; /* lề phải */
 }
+#a6{
+    margin-left: 20px  ;
+}
+#a7{
+    margin-left: 20px  ;
+}
+#c{
+    margin-left: 15px ;
+    width:80%;
+    border-bottom:1px solid #242424
 
-
+}
 
 
 
