@@ -1,0 +1,55 @@
+*{
+
+}
+body {
+    background-color: ;
+    color: aqua;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
+}
+div{
+    /*cach  tính viền nâng cao
+    width:calc(350-padding-margin=350-62
+     */
+    width: 350px;
+    height: 350px;
+    border:1px solid #AAAAAA ;/*đương viền:*/
+    padding: 15px ;/*dan khung đường viền và anh:/
+/*tương đương với top right bottom lèt*/
+    float:left;/*dồn về 1 hàng*/
+    margin:20px 20px ;/*phân cách khoảng cach ảnh*/
+    /*cung co top right  bottom left*/
+    box-sizing: border-box/* chỉ được sử dụng 350px*/;
+    max-width: 100%;/*cách kéo ảnh không vượt quá*/
+    overflow:hidden;/* sử lí những cái tràn ra khỏi khối*/
+    /*box-shadow:5px 5px #AAAAAAA ;*//* bong viền*/
+    text-align: ;
+}
+img{
+    max-width: 100%;
+
+}
+#a {
+    width:800px;
+    height:600px;
+
+}
+#a>img{
+    width:auto ;
+    height:auto;
+}
+#rec{
+    width:100px;
+    height:30px;
+    background-color: ;red
+    border-radius:100%;
+}
+#center{
+    float:none;
+    width:200px;
+    background-color:back;
+    margin:auto;
+}
