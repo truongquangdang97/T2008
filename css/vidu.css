@@ -1,0 +1,25 @@
+body{
+    background-color: #B0C4DE;
+}
+.c{
+
+    background-color: white;
+    width:70%;
+    height:800px;
+    margin:auto;
+    box-sizing: border-box;
+
+}
+.c img{
+    width:100%;
+}
+.a{
+    background-color: #000008;
+    width:30px;
+    height:30px;
+
+}
+#c{
+    position: relative;
+    
+}
