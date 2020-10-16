@@ -1,134 +1,37 @@
-
-#nt{
-    width: 230px;
-    height: 350px;
+body {
+    background-color: mistyrose;
+    font-size: 20px;
+    line-height: 1.25;
 }
-.item{
-    width: 350px;
-    height: 350px;
-/*border: 1px solid #888888;*/
-div{
-    background-color: #ffffff;
-    text-align: center;
-    float: left;
-}
-.vn{
-    background-color: orange;
-    position: relative;
-}
-img{
-    max-width: 100%;
-}
-#nt{
-    width: 230px;
-    height: 350px;
-}
-
-div#nt img{
-    width: 200px;
-    height: auto;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 5;
-}
-#rec{
-    z-index: 50;
-    width: 30px;
-    height: 30px;
-    background-color: red;
-    border-radius: 100%;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    animation: nt_rec;
-    animation-delay: 1s;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-#center{
+#bocuc{
     float: none;
-    width: 200px;
-    background-color: darkseagreen;
-    margin: 10px auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
 }
-.bg-fade{
-    display: none;
-    background-color: #000000;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    opacity: 0.6;
-    z-index: 11;
-}
-.popup{
-    display: none;/* none block inline inline-block */
-    background-color: #f2f2f2;
-    width: 350px;
-    height: 500px;
-    box-shadow: 0 0 5px #AAAAAA;
-    position: fixed;
-    z-index: 12;
-    padding: 20px;
+#d1{
+    width: 90%;
+    height:50px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px ;
+    /*float: none;*/
     box-sizing: border-box;
-    text-align: center;
-    border-radius: 8px;
-    top: 50%;
-    left: 50%;
-    margin-top:-250px;
-    margin-left: -175px;
+    margin: 1%;
 }
-.trans{
-    /*transform: translate(100px,200px);*/
-    /*transform: rotate(45deg);*/
-    transition: all 600ms;
+.da{
+    background-color: white;
+    width:20%;
+    height:auto;
+    float:left;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    margin-left: 10px;
+
+
 }
-.trans:hover{
-    transform: rotate(360deg);
-    background-color: orange;
-}
-.animate{
-    /*animation: box_animation2;*/
-    animation-duration: 6s;
-    animation-delay:3s;
-    animation-iteration-count: infinite;
-}
-@keyframes box_animation {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(720deg);
-    }
-}
-@keyframes box_animation2 {
-    0%{
-        transform: rotate(0deg);
-    }
-    25%{
-        transform: rotate(90deg);
-    }
-    50%{
-        transform: rotate(180deg);
-    }
-    75%{
-        transform: rotate(270deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-@keyframes nt_rec {
-    0%{
-        background-color: red;
-    }
-    25%{
-        background-color: green;
-    }
-    75%{
-        background-color: yellow;
-    }
-    100%{
-        background-color: red;
-    }
+.db{
+    background-color: #000000;
+    color:white;
+
 }
