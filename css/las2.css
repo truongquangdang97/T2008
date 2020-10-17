@@ -1,13 +1,14 @@
-
 body{
-    width:700px;
+    background-color: black;
 }
-.b{
-    text-align:center;
-    margin-top:-19px;
-  /*  float:left;*/
-    margin-left: 40px;
+.A{
+    background-color: white;
+    width: 50%;
+    height: ;
+    margin:auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-.d{
+#C{
     text-align: center;
 }
