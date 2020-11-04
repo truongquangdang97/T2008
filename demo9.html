@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yeu cau nguoi dung phai nhap 1 so tu 0 -> 99</title>
+</head>
+<body>
+<script type="text/javascript">
+    var lucky=[];
+    for(let i=0;i<3;i++){
+        let x;
+        do{
+            x=parseInt(Math.random()*100)
+        }while (lucky.includes(x)||isNaN(x))
+        lucky.push(x)
+    }
+    console.log(lucky)
+
+    var number=[]
+    for (let i=0;i<3;i++){
+        number[i]=[];
+        for (let j=0;j<3;j++){
+            let x;
+            do{
+                x=prompt("nhap so")
+                x=parseInt(x)
+            }while (number[i].includes(x)||isNaN(x))//includer là hàm biến x khác nhaub
+            //dể cho number .includer(x) là 1 số khác nhau. Nếu giống nhau là chạy lại.
+            number[i].push(x)
+        }
+    }
+
+    for (let i=0;i<3;i++){
+        let sl=0;
+        for (let j=0;j<3;j++){
+            if(lucky.includes(number[i][j]))
+                sl++
+        }
+        if(sl==3){
+            alert("chuc mung")
+        }else {
+            alert("xin loi")
+        }
+    }
+
+
+</script>
+</body>
+</html>

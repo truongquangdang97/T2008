@@ -1,0 +1,173 @@
+.all{
+    background-image: url("../photo/b01.jpg");
+    color: white;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    height: 50px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.nav{
+    height: 300px;
+}
+.A{
+    float: left;
+}
+.B{
+    float: right;
+    color: #FFFFFF;
+}
+.B li{
+    float: right;
+    color: #FFFFFF;
+    margin-left: 20px;
+    font-size: 18px;
+    list-style: none;
+}
+.a1{
+    color:white;
+}
+.a2{
+    color: #FFFFFF;
+}
+.BB li{
+    list-style: none;
+    float: right;
+    margin-left: 15px;
+}
+.a3{
+    background-color: #4682B4;
+    color: #FFFFFF;
+    padding: 10px 10px ;
+}
+.chuto{
+    font-size: 60px;
+    text-align: center;
+}
+.chunho1{
+    text-align: center;
+}
+.d{
+    color: #FFFFFF;
+}
+.g{
+    font-size: 30px;
+}
+.K{
+    color: #FFFFFF;
+    float: left;
+}
+.K li{
+    color: #FFFFFF;
+    float: right;
+    margin-left: 15px;
+    list-style: none;
+    font-size: 30px;
+    transition: all 500ms;
+}
+.yyy{
+    background-color: #e5e5e5;
+    padding: 10px 15px;
+    border: 0;
+}
+.thumuc{
+    float: left;
+}
+.thumuc li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+.P{
+    float: right;
+}
+.CHUTO{
+    font-size: 60px;
+    margin-top: 40px;
+    float: top;
+}
+.chunho{
+    margin-right:80px ;
+    float: right;
+}
+.chunho li{
+    float: right;
+    margin-left: 60px;
+    list-style: none;
+}
+.aa{
+    margin-top: 50px;
+}
+.aa li{
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+}
+.anh img{
+    max-width: 100%;
+}
+.anh{
+    margin-top: 30px;
+}
+.Q{
+    background-color: white;
+    padding: 15px;
+    color: #232323;
+    text-align: center;
+    transition: all 500ms;
+}
+.Q:hover{
+    background-color: #00aa88;
+}
+.KK{
+    margin-top: 30px;
+}
+.T li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+.TT{
+    background-color: #FFFFFF;
+    padding: 0 20px;
+    transition: all 500ms;
+}
+.TT:hover{
+    background-color: gold;
+}
+.footer{
+    background-color: #232323;
+    color: #FFFFFF;
+}
+.S{
+    padding:10px 0;
+    width: 100%;
+}
+.YYYY{
+    line-height: 2;
+}
+.TTT{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.MM{
+    color: #FFFFFF;
+}
+.GGG li{
+    font-size: 25px;
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+}
+.cuoi{
+    background-color: #00aa88;
+    padding:15px 15px 15px 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.container{
+    margin-bottom: 50px;
+}
