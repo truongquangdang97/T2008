@@ -1,0 +1,83 @@
+.all img{
+    max-width: 100%;
+}
+.A{
+    background-color:#e7e7e7;
+}
+.AA{
+    background-color:#e7e7e7;
+    height: 780px;
+}
+
+.all{
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color:#FFFFFF;
+}
+.all img{
+    max-width: 100%;
+}
+
+.ten{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.traitim{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: #c7254e;
+}
+.giohang{
+    margin-top: 10px;
+    background-color: #00aa88;
+    text-align: center;
+    padding: 7px 0;
+}
+.gia1{
+    float: left;
+}
+.a{
+    color: red;
+    float: left;
+    padding-left: 10px;
+}
+.b{
+    color:#999999;
+    padding-left: 10px;
+}
+.sao{
+    margin-top: 5px;
+    float: right;
+    padding-right: 10px;
+}
+.saosang{
+    background-size: 8px 8px;
+    float: left;
+    width: 40px;
+    height: 8px;
+    background-image: url("../photo/star-off.png");
+}
+.saotoi{
+    height: 8px;
+    background-size: 8px 8px;
+    float: left;
+    background-image: url("../photo/star-on.png");
+}
+.new{
+    background-color:#449d44;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    position: absolute;
+    top:30px;
+    left: 30px;
+}
+.hot{
+    background-color: #ec971f;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    position: absolute;
+    top:30px;
+    left: 30px;
+}

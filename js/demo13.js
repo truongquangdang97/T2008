@@ -6,13 +6,13 @@ var mathang=[
         sao:4,
     },
     {
-        ten:"quan ao",
+        ten:"giay dep",
         anh:"photo/zara2.webp",
         gia:1,
         sao:2,
     },
     {
-        ten:"quan ao",
+        ten:"nha cua",
         anh:"photo/zara3.webp",
         gia:1,
         sao:2,

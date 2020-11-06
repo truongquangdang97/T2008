@@ -21,43 +21,43 @@ var products = [
         name:"Flying Ninja",
         image:"imgs/product.jpg",
         price: 12,
-        star:3.5
+        star:1
     },
     {
         name:"Flying Ninja",
         image:"imgs/product.jpg",
         price: 12,
-        star:3.5
+        star:1
     },
     {
         name:"Flying Ninja",
         image:"imgs/product.jpg",
         price: 12,
-        star:3.5
+        star:1
     },
     {
         name:"Flying Ninja",
         image:"imgs/product.jpg",
         price: 12,
-        star:3.5
+        star:1
     },
     {
         name:"Flying Ninja",
         image:"imgs/product.jpg",
         price: 12,
-        star:3.5
+        star:1
     },
     {
         name:"Flying Ninja",
         image:"imgs/product.jpg",
         price: 12,
-        star:3.5
+        star:2
     },
     {
         name:"Flying Ninja",
         image:"imgs/product.jpg",
         price: 12,
-        star:3.5
+        star:1
     }
 
 ]
@@ -81,5 +81,5 @@ function gridProduct() {
 
     return g_html;
 }
-var grid = document.getElementById("grid-products");
+var grid = document.getElementById("gridproducts");
 grid.innerHTML = gridProduct();
